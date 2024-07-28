@@ -1,0 +1,27 @@
+{
+  "name": "renode",
+  "version": "1.0.2",
+  "main": "lib/renode.js",
+  "bin": {
+    "renode": "lib/renode.js"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Harsh Vardhan",
+    "email": "devharsh2k4@gmail.com",
+    "url": "https://github.com/devharsh2k4"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devharsh2k4/renode"
+  },
+
+  "license": "ISC",
+  "description": "Renode is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you. ",
+  "dependencies": {
+    "chokidar": "^3.6.0"
+  }
+}
