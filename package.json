@@ -1,9 +1,9 @@
 {
-  "name": "renode",
+  "name": "vegazync",
   "version": "1.1.0",
-  "main": "lib/renode.js",
+  "main": "lib/vegazync.js",
   "bin": {
-    "renode": "lib/renode.js"
+    "vegazync": "lib/vegazync.js"
   },
   "scripts": {},
   "author": {
@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devharsh2k4/renode.git"
+    "url": "git+https://github.com/devharsh2k4/vegazync.git"
   },
   "license": "ISC",
-  "description": "Renode is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you. ",
-  "dependencies": {
+  "description": "vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you. ",
+  "devDependencies": {
     "chokidar": "^3.6.0"
   }
 }
