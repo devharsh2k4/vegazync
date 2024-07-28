@@ -1,12 +1,12 @@
-# Renode
+# Vegazync
 
-Renode is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you.
+vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you.
 
 ## Installation
 
 1. Clone the repository.
 2. Install the required dependencies.
-3. Run `npm start` to start the project.
+3. Run `vegazync filename` to start the project.
 
 ## Usage
 
