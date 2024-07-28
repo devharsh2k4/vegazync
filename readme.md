@@ -1,6 +1,6 @@
-# Project Name
+# Renode
 
-This is a basic project template for getting started with Renode.
+Renode is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you.
 
 ## Installation
 
