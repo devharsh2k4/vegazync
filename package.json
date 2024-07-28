@@ -1,6 +1,6 @@
 {
   "name": "renode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/renode.js",
   "bin": {
     "renode": "lib/renode.js"
