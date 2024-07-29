@@ -15,8 +15,8 @@ vegazync is used to watch and monitor all of your project files so you dont need
 Contributions are welcome! Please follow the guidelines in the CONTRIBUTING.md file.
 
 ## License
-
+                                                                           
 This project is licensed under the ISC License. See the LICENSE.md      fi     le for more details.
-               
-## PREVIEW                         
-                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                               
+## PREVIEW  
+preview.png                                                                                                                                                                                                                                                                                                                    
