@@ -1,6 +1,6 @@
 # Vegazync
 
-vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you.
+vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js",".json" & ".env" files which will make your development smooth and easy.
 
 ## Installation
 
