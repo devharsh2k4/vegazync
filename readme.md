@@ -16,4 +16,7 @@ Contributions are welcome! Please follow the guidelines in the CONTRIBUTING.md f
 
 ## License
 
-This project is licensed under the ISC License. See the LICENSE.md file for more details.
+This project is licensed under the ISC License. See the LICENSE.md      fi     le for more details.
+               
+## PREVIEW                         
+/home/harsh/Pictures/Screenshots/Screenshot from 2024-07-29 22-43-37.png                                                                                                                                                                                                                                                                                                                                 
