@@ -19,4 +19,4 @@ Contributions are welcome! Please follow the guidelines in the CONTRIBUTING.md f
 This project is licensed under the ISC License. See the LICENSE.md      fi     le for more details.
                                                                                                                                                                                
 ## PREVIEW  
-[preview.png ](https://github.com/devharsh2k4/vegazync/blob/main/preview.png)                                                                                                                                                                                                                                                                                                              
+![preview.png ](https://github.com/devharsh2k4/vegazync/blob/main/preview.png)                                                                                                                                                                                                                                                                                                              
