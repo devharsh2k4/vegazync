@@ -1,16 +1,36 @@
 # Vegazync v1.2.4
 
-vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js",".json" & ".env" files which will make your development smooth and easy.
+vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js" & ".json"  files which will make your development smooth and easy.
 
 [![NPM version](https://badge.fury.io/js/vegazync.svg)](https://npmjs.org/package/vegazync)
 
 ## Installation
+Step 1.
 
-1. Run npm i vegazync.
-2. Install the required dependencies.
-3. make a script as "vegazync "file name""
-     "start": "vegazync index.js"
-3. Run `npm start` to start the project.
+To Install globally
+```bash
+npm install -g vegazync
+```
+
+To install locally in your project
+```bash
+npm i vegazync
+```
+
+Step 2.
+Inside package.json file add a script
+
+```json
+{
+  "name": "vegazync",
+  "scripts": {
+    "dev": "vegazync server.js",
+  },
+}
+```
+## Manual Restart
+
+You can manually restart vegazync via typing 'rs' in the terminal
 
 ## Contributing
 
