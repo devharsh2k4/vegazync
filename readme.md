@@ -24,10 +24,17 @@ Inside package.json file add a script
 {
   "name": "vegazync",
   "scripts": {
-    "dev": "vegazync server.js",
+    "start": "vegazync server.js",
   },
 }
 ```
+
+Step 3.
+To Start the server with vegazync
+```bash
+npm start
+```
+
 ## Manual Restart
 
 You can manually restart vegazync via typing 'r' and hit Enter in the terminal

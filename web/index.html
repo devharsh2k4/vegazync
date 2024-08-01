@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegazync</title>
+    <link rel="stylesheet" href="pixel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../logo.png" alt="Vegazync Logo">
+        </div>
+        <h1>Vegazync</h1>
+        <p>Watch and monitor your project files effortlessly</p>
+    </header>
+    <main>
+        <section class="description">
+            <h2>Package Description</h2>
+            <p>vegazync is used to watch and monitor all of your project files so you don't need to restart manually and
+                let vegazync handle it for you. It can monitor any type of changes in ".js", ".html", ".json", ".css",
+                "image files(png, jpg, jpeg, gif, svg)" & ".md" files which will make your development smooth and easy.
+            </p>
+            <a href="https://npmjs.org/package/vegazync"><img src="https://badge.fury.io/js/vegazync.svg"
+                    alt="NPM version"></a>
+        </section>
+        <section class="installation">
+            <h2>Installation</h2>
+            <h3>Step 1: To Install Globally</h3>
+            <pre><code>npm install -g vegazync</code></pre>
+            <h3>To Install Locally in Your Project</h3>
+            <pre><code>npm i vegazync</code></pre>
+            <h3>Step 2: Inside package.json file add a script</h3>
+            <pre><code>{
+  "name": "vegazync",
+  "scripts": {
+    "start": "vegazync server.js",
+  }
+}</code></pre>
+<h3>Step 3: To Start the server with vegazync</h3>
+<pre><code>npm start</code></pre>
+
+        </section>
+        <section class="usage">
+            <h2>Manual Restart</h2>
+            <p>You can manually restart vegazync via typing 'r' and hitting Enter in the terminal.</p>
+            <h2>Stop</h2>
+            <p>To stop and exit the process you can type 'c' and hit Enter in the terminal.</p>
+            <h2>Ignoring</h2>
+            <p>vegazync ignores ".env", "node_modules" & ".gitignore" files. Will add the feature of manually ignoring
+                specific files and directories in future.</p>
+        </section>
+        <section class="contributing">
+            <h2>Contributing</h2>
+            <p>Contributions are welcome! Please follow the guidelines.</p>
+        </section>
+        <section class="preview">
+            <h2>Preview</h2>
+            <img src="../preview.png" alt="Preview of vegazync">
+        </section>
+        <section class="github">
+            <h2>GitHub Repository</h2>
+            <a href="https://github.com/devharsh2k4/vegazync" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> Visit VegaZync GitHub Repository
+            </a>
+        </section>
+        <section class="developer">
+            <h2>About the Developer</h2>
+            <div class="developer-info">
+                <img src="developer.jpeg" alt="Developer Photo">
+                <div class="developer-details">
+                    <p>Harsh Vardhan</p>
+                    <p>A passionate developer with passion in Web & Android development and
+                        open-source contributions. Loves to build tools that make developers' lives easier.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/devharsh2k4" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/devharsh2k4" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/devharsh2k4" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@CrashTalks-2k4" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 VegaZync</p>
+    </footer>
+
+</body>
+
+</html>
