@@ -1,6 +1,6 @@
-# Vegazync v1.3.1
+# Vegazync v1.3.4
 
-vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js" & ".json"  files which will make your development smooth and easy.
+vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js",".html",".json",".css","image files(png,jpg,jpeg,gif,svg)"&".md" files which will make your development smooth and easy.
 
 [![NPM version](https://badge.fury.io/js/vegazync.svg)](https://npmjs.org/package/vegazync)
 
@@ -35,6 +35,12 @@ You can manually restart vegazync via typing 'r' and hit Enter in the terminal
 ## Stop
 
 To stop and exit the process you can type 'c' and hit Enter in the terminal
+
+## Ignoring
+
+vegazync ignores ".env","node modules" & ".gitignore" files 
+
+Will add the feature of manually ignoring specific files and directories in future
 
 ## Contributing
 
