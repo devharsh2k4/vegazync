@@ -30,11 +30,11 @@ Inside package.json file add a script
 ```
 ## Manual Restart
 
-You can manually restart vegazync via typing 'r' in the terminal
+You can manually restart vegazync via typing 'r' and hit Enter in the terminal
 
 ## Stop
 
-To stop and exit the process you can type 'c' in the terminal
+To stop and exit the process you can type 'c' and hit Enter in the terminal
 
 ## Contributing
 
