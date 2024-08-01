@@ -1,4 +1,4 @@
-# Vegazync v1.2.6
+# Vegazync v1.3.1
 
 vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js" & ".json"  files which will make your development smooth and easy.
 
@@ -30,7 +30,11 @@ Inside package.json file add a script
 ```
 ## Manual Restart
 
-You can manually restart vegazync via typing 'rs' in the terminal
+You can manually restart vegazync via typing 'r' in the terminal
+
+## Stop
+
+To stop and exit the process you can type 'c' in the terminal
 
 ## Contributing
 
