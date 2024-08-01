@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="https://devharsh2k4.github.io/vegazync/"><img src="./logo-withoutBg.png" alt="Vegazync Logo"></a>
+  <a href="https://devharsh2k4.github.io/vegazync/">
+    <img src="./logo-withoutBg.png" alt="Vegazync Logo" width="150" height="150">
+  </a>
 </p>
+
 
 # Vegazync v1.3.4
 
