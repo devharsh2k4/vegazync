@@ -1,6 +1,7 @@
 {
   "name": "vegazync",
-  "version": "1.3.5",
+  "homepage": "https://devharsh2k4.github.io/vegazync/",
+  "version": "1.3.7",
   "main": "lib/vegazync.js",
   "bin": {
     "vegazync": "lib/vegazync.js"
@@ -8,8 +9,7 @@
   "scripts": {},
   "author": {
     "name": "Harsh Vardhan",
-    "email": "devharsh2k4@gmail.com",
-    "url": "https://devharsh2k4.github.io/vegazync/"
+    "email": "devharsh2k4@gmail.com"
   },
   "engines": {
     "node": ">=10"
@@ -22,5 +22,15 @@
   "description": "vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you. ",
   "dependencies": {
     "chokidar": "^3.6.0"
-  }
+  },
+  "keywords": [
+    "vegazync",
+    "watch",
+    "monitor",
+    "development",
+    "restart",
+    "autoload",
+    "reload",
+    "terminal"
+  ]
 }
