@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://devharsh2k4.github.io/vegazync/"><img src="./logo-withoutBg.png" alt="Vegazync Logo"></a>
+</p>
+
 # Vegazync v1.3.4
 
 vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js",".html",".json",".css","image files(png,jpg,jpeg,gif,svg)"&".md" files which will make your development smooth and easy.
