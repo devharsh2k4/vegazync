@@ -1,7 +1,7 @@
 {
   "name": "vegazync",
   "homepage": "https://devharsh2k4.github.io/vegazync/",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "lib/vegazync.js",
   "bin": {
     "vegazync": "lib/vegazync.js"
@@ -31,6 +31,10 @@
     "restart",
     "autoload",
     "reload",
-    "terminal"
+    "terminal",
+    "fs",
+    "file",
+    "cli",
+    "trending"
   ]
 }
