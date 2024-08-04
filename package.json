@@ -1,7 +1,7 @@
 {
   "name": "vegazync",
   "homepage": "https://devharsh2k4.github.io/vegazync/",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "main": "lib/vegazync.js",
   "bin": {
     "vegazync": "lib/vegazync.js"
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/devharsh2k4/vegazync.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "description": "vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let renode do it for you. ",
   "dependencies": {
     "chokidar": "^3.6.0"

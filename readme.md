@@ -5,9 +5,9 @@
 </p>
 
 
-# Vegazync v1.4.1
+# Vegazync v1.4.2
 
-vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  ".js",".html",".json",".css","image files(png,jpg,jpeg,gif,svg)"&".md" files which will make your development smooth and easy.
+vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  files which will make your development smooth and easy.
 
 
 
@@ -52,13 +52,9 @@ To stop and exit the process you can type 'c' and hit Enter in the terminal
 
 ## Ignoring
 
-vegazync ignores ".env","node modules" & ".gitignore" files 
+vegazync ignores ".env","node modules" ".txt" & ".gitignore" files 
 
 Will add the feature of manually ignoring specific files and directories in future
-
-## Contributing
-
-Contributions are welcome! Please follow the guidelines
                                                                                                                                                                                
 ## PREVIEW  
 ![preview.png ](https://github.com/devharsh2k4/vegazync/blob/main/preview.png)                                                                                                                                                                                                                                                                                                              
