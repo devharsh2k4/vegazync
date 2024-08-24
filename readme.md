@@ -5,7 +5,7 @@
 </p>
 
 
-# Vegazync v1.4.2
+# Vegazync v1.4.3
 
 vegazync is used to watch and monitor all of your project files so you dont need to restart manually and let vegazync handle it for you. It can monitor any type of changes in  files which will make your development smooth and easy.
 
