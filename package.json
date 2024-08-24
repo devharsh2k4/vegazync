@@ -1,7 +1,7 @@
 {
   "name": "vegazync",
   "homepage": "https://devharsh2k4.github.io/vegazync/",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "main": "lib/vegazync.js",
   "bin": {
     "vegazync": "lib/vegazync.js"
