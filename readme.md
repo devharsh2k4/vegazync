@@ -50,11 +50,52 @@ You can manually restart vegazync via typing 'r' and hit Enter in the terminal
 
 To stop and exit the process you can type 'c' and hit Enter in the terminal
 
-## Ignoring
+## Configuration
 
-vegazync ignores ".env","node modules" ".txt" & ".gitignore" files 
+vegazync can be configured either via CLI flags or configuration files (`vegazync.json`, `.vegazyncrc`, or `"vegazync"` section in `package.json`).
 
-Will add the feature of manually ignoring specific files and directories in future
-                                                                                                                                                                               
+### CLI Options
+
+| Flag | Description | Example |
+| --- | --- | --- |
+| `-w, --watch` | Extensions or paths to watch (comma-separated or array) | `vegazync server.js -w js,ts,json` |
+| `-i, --ignore` | Files or directories to ignore (comma-separated or array) | `vegazync server.js -i node_modules,dist,.git` |
+| `-d, --delay` | Debounce delay before restarting in ms (default: `1000`) | `vegazync server.js -d 500` |
+| `-c, --config` | Path to custom JSON config file | `vegazync --config my-config.json` |
+| `-e, --exec` | Script file to execute | `vegazync --exec server.js` |
+| `-h, --help` | Display help information | `vegazync --help` |
+| `-v, --version` | Display version number | `vegazync --version` |
+
+### Configuration Files
+
+You can create a `vegazync.json` or `.vegazyncrc` file in your project root, or add a `"vegazync"` section to your `package.json`.
+
+#### Example `vegazync.json`:
+```json
+{
+  "exec": "server.js",
+  "watch": ["js", "ts", "json", "html"],
+  "ignore": ["node_modules", "dist", ".env"],
+  "delay": 500
+}
+```
+
+#### Example `package.json`:
+```json
+{
+  "name": "my-app",
+  "scripts": {
+    "start": "vegazync"
+  },
+  "vegazync": {
+    "exec": "server.js",
+    "watch": ["js", "ts"],
+    "ignore": ["node_modules", "build"],
+    "delay": 500
+  }
+}
+```
+
 ## PREVIEW  
-![preview.png ](https://github.com/devharsh2k4/vegazync/blob/main/preview.png)                                                                                                                                                                                                                                                                                                              
+![preview.png ](https://github.com/devharsh2k4/vegazync/blob/main/preview.png)
+                                                                                                                                                                                                                                                                                                              
